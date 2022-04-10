@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Main</string>
+    <string name="folderName">Folder Name</string>
+    <string name="appName">Simple Image Gallery</string>
+    <string name="empty">No Images on this device</string>
+
+    <string name="photos_name">Photos</string>
+    <string name="title_activity_data_select">DataSelectActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_mosaic">MosaicActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="ad_id">ca-app-pub-3202401163905235~6079559745</string>
+</resources>

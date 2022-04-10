@@ -1,0 +1,14 @@
+prefix=/Users/kakaovx/Downloads/ffmpeg/android/armeabi-v7a
+exec_prefix=${prefix}
+libdir=/Users/kakaovx/Downloads/ffmpeg/android/armeabi-v7a/lib
+includedir=/Users/kakaovx/Downloads/ffmpeg/android/armeabi-v7a/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 59.17.103
+Requires: 
+Requires.private: libavcodec >= 59.22.100, libswresample >= 4.4.100, libavutil >= 57.22.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: -lm -latomic -lz
+Cflags: -I${includedir}

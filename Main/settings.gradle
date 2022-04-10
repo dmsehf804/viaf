@@ -1,0 +1,4 @@
+include ':FFmpeg'
+include ':opencv'
+include ':app'
+rootProject.name = "Main"
